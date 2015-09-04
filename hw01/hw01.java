@@ -14,9 +14,11 @@
 //Define a class
     public class hw01{
         
+
 //Add main method
     public static void main(String[] args) {
         
+
 //print our the content
        
         System.out.println(" -----------------");
@@ -31,7 +33,9 @@
         System.out.println("do a photography project on Lehigh campus.");
         
         //test
-        
+       
     }
     
     }
+    
+        //Hooray!! First homework done!!
