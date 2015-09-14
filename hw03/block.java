@@ -17,22 +17,22 @@ public class block {
 //input data
     //first data, length
     System.out.println("Now please enter the length.");
-    double l = input.nextdouble();
+    double l = input.nextDouble();
     
     //second data, width
     System.out.println("Now please enter the width. ");
-    double w = input.nextdouble();
+    double w = input.nextDouble();
     
     //thrid data, height
     System.out.println("Now please enter the height. ");
-    double h = input.nextdouble();
+    double h = input.nextDouble();
     
     //show the data inputed
     System.out.println(  "The data inputed are: length "
                        + l 
-                       + "width"
+                       + "  width "
                        + w
-                       + "height"
+                       + "  height "
                        + h);
     
 //create variables for calculations
