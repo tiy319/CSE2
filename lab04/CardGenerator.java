@@ -26,58 +26,32 @@ public class CardGenerator {
 
     
     //determine the suit of the card generated
-    if (1 <= n)
-    {
-    if (n <= 13)            //if the card is diamond, then store diamon
+    if (1 <= n && n <= 13)            //if the card is diamond, then store diamon
     { suit = "diamond"; } 
-    }
    
-    if (14 <= n)
-    {
-    if (n <= 26)            //if not, continue to "if". determine if it is clubs
+    if (14 <= n && n <= 26)            //if not, continue to "if". determine if it is clubs
     { suit = "club"; }
-    }
     
-    if (27 <= n)
-    {
-    if (n <= 38)            //determine if it is a heart
+    if (27 <= n && n <= 38)            //determine if it is a heart
     { suit = "heart"; }
-    }
     
-    if (39 <= n)
-    {
-    if (n <= 52)            //determine if it is a spate
+    if (39 <= n && n <= 52)            //determine if it is a spate
     { suit = "spate"; }
-    }
     
         
     //determine the number of the card
-    if (1 <= n)             //determine the number on the card if it is a diamond
-    {
-    if (n <= 13)
+    if (1 <= n && n <= 13)            //determine the number on the card if it is a diamond
     { card = String.valueOf(n); } 
-    }
    
-    if (14 <= n)
-    {
-    if (n <= 26)          //if it is a club
+    if (14 <= n && n <= 26)          //if it is a club
     { card = String.valueOf( n - 13 ); }
-    }
     
-    if (27 <= n)
-    {
-    if (n <= 38)          //if it is a heart
+    if (27 <= n && n <= 38)          //if it is a heart
     { card = String.valueOf( n - 26 ); }
-    }
     
-    if (39 <= n)
-    {
-    if (n <= 52)          //if it is a spate
+    if (39 <= n && n <= 52)          //if it is a spate
     { card = String.valueOf( n - 38 ); }
-    }
     
-  
-        
     
     //Switch the card number 11,12,13 to Jack, Queen, King, respectively    
     switch (card) {
