@@ -18,7 +18,7 @@ public class BarGraph {
 Scanner input = new Scanner (System.in);
 //let java to accpet input
         
-    String n1, n2, n3, n4, n5, n6, n7;
+    double n1, n2, n3, n4, n5, n6, n7;
     //create variables to store money spent each day
     double avg; 
     //create a double to store the avg of the week
